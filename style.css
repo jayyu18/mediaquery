@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+
+@media(width <= 400px){
+    body{
+        background-color: green;
+        
+    }
+}
+@media(width <= 200px){
+    body{
+        background-color: gold;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+}
